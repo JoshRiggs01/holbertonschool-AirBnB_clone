@@ -1,0 +1,103 @@
+.filters .container {
+  display: flex;
+  align-items: center;
+}
+
+.locations,
+.amenities {
+  height: 100%;
+  width: 25%;
+  border-right: 1px solid #dddddd;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.locations .popover,
+.amenities .popover {
+  position: absolute;
+  display: none;
+  color: #fafafa;
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+ 
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.filters__search {
+  display: flex;
+  align-items: center;
+}
+
+.filters__search label {
+  margin-right: 10px;
+}
+
+.filters__search input {
+  border: none;
+  border-bottom: 1px solid #DDDDDD;
+  margin-right: 10px;
+}
+
+.filters__search button {
+  background-color: #FF5A5F;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filters__filter {
+  position: relative;
+}
+
+.filters__filter h3 {
+  margin-bottom: 10px;
+}
+
+.filters__filter .popover {
+  position: absolute;
+  display: none;
+  top: 50px;
+  left: 0;
+  background-color: #FAFAFA;
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.filters__filter:hover .popover {
+  display: block;
+}
+
+.filters__filter ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filters__filter li {
+  margin: 5px 0;
+}
+
+.filters__filter h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.filters__filter ul ul {
+  padding-left: 20px;
+}

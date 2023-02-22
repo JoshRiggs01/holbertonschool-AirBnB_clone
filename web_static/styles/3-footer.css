@@ -1,0 +1,31 @@
+footer {
+  background-color: #2C2E34;
+  height: 60px;
+  width: 100%;
+  border-top: 1px solid #CCCCCC;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+}
+
+footer {
+  background-color: #fff;
+  height: 60px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold;
+}
